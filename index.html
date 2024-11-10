@@ -1,3 +1,4 @@
+<!-- Твоя основна HTML сторінка (index.html) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +17,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="registration.html">Registration</a></li> <!-- Ссылка на страницу регистрации -->
+                <li><a href="registration.html">Registration</a></li>
             </ul>
         </nav>
     </header>
@@ -28,19 +29,19 @@
                 <h3>Product 1</h3>
                 <p>Description of Product 1.</p>
                 <p>Price: $10.00</p>
-                <button class="buyButton">Buy Now</button>
+                <button class="buyButton" data-product="Product 1">Buy Now</button>
             </div>
             <div class="product">
                 <h3>Product 2</h3>
                 <p>Description of Product 2.</p>
                 <p>Price: $20.00</p>
-                <button class="buyButton">Buy Now</button>
+                <button class="buyButton" data-product="Product 2">Buy Now</button>
             </div>
             <div class="product">
                 <h3>Product 3</h3>
                 <p>Description of Product 3.</p>
                 <p>Price: $15.00</p>
-                <button class="buyButton">Buy Now</button>
+                <button class="buyButton" data-product="Product 3">Buy Now</button>
             </div>
         </section>
     </main>
@@ -63,7 +64,7 @@
 
         <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
